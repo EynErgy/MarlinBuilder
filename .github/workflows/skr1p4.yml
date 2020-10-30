@@ -1,9 +1,6 @@
 name: skr_1p4
 
 on:
-  schedule:
-    # At 12:15 each day. No idea what time zone this is...
-    - cron:  '00 12 * * *'
   push:
     branches:
     - main
@@ -75,7 +72,9 @@ jobs:
         fetch-depth: 1
 
     - name: Display the path
-      run: echo $PATH
+      run: |
+        echo $PATH
+        pwd
       shell: bash
     
     - name: Change pins file for skr1p4 and 1pk4t
