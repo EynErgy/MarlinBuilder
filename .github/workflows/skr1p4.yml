@@ -76,6 +76,10 @@ jobs:
         echo $PATH
         pwd
         ls -lisah
+        ls Marlin/
+        ls Marlin/src/
+        ls Marlin/src/pins/
+        ls Marlin/src/pins/lpc1768/
       shell: bash
     
     - name: Change pins file for skr1p4 and 1pk4t
