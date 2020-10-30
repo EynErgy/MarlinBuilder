@@ -73,9 +73,13 @@ jobs:
         path: Marlin
         clean: true
         fetch-depth: 1
+
+    - name: Display the path
+      run: echo $PATH
+      shell: bash
             
-    - name: Change pins file for skr1p4 qnd 1pk4t
-      run: cp src/skr1p4_pins.h  Marlin/src/pins/lpc1768/pins_BTT_SKR_V1_4.h
+    - name: Change pins file for skr1p4 and 1pk4t
+      run: cp src/skr1p4_pins.h Marlin/src/pins/lpc1768/pins_BTT_SKR_V1_4.h
 
     - name: Configure
       run: |
