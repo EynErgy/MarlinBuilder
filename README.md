@@ -8,6 +8,7 @@ V1Engineering.com machines.
 ![archim](https://github.com/V1EngineeringInc/MarlinBuilder/workflows/archim/badge.svg)
 ![ramps](https://github.com/V1EngineeringInc/MarlinBuilder/workflows/ramps/badge.svg)
 ![skr_1p3](https://github.com/V1EngineeringInc/MarlinBuilder/workflows/skr_1p3/badge.svg)
+![skr_1p4t](https://github.com/EynErgy/MarlinBuilder/workflows/skr_1p4t/badge.svg)
 
 ## Getting started
 
