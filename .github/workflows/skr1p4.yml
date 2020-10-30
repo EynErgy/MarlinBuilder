@@ -75,6 +75,7 @@ jobs:
       run: |
         echo $PATH
         pwd
+        ls -lisah
       shell: bash
     
     - name: Change pins file for skr1p4 and 1pk4t
