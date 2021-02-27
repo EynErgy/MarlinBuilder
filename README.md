@@ -1,7 +1,7 @@
 # V1 Engineering Preconfigured Marlin
 
 This repository provides a preconfigured version of Marlin that is optimized for The
-V1Engineering.com machines.
+V1Engineering.com machines. Special branch for BigtreeTech SKR 1.4 and 1.4 Turbo
 
 ![skr_1p4](https://github.com/EynErgy/MarlinBuilder/workflows/skr_1p4/badge.svg)
 ![skr_1p4t](https://github.com/EynErgy/MarlinBuilder/workflows/skr_1p4t/badge.svg)
