@@ -41,6 +41,9 @@ jobs:
         - V1CNC_Skr1p4_2209
         - V1CNC_Skr1p4_Dual_2209
         - V1CNC_Skr1p4_DualLR_2209
+        - V1CNC_Skr1p4_5160_so
+        - V1CNC_Skr1p4_Dual_5160_so
+        - V1CNC_Skr1p4_DualLR_5160_so
 
     steps:
 
