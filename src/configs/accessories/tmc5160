@@ -21,6 +21,13 @@ opt_set Z_CURRENT 900
 opt_set X2_CURRENT 900
 opt_set Y2_CURRENT 900
 opt_set Z2_CURRENT 900
+opt_set X_RSENSE 0.075
+opt_set Y_RSENSE 0.075
+opt_set Z_RSENSE 0.075
+opt_set X2_RSENSE 0.075
+opt_set Y2_RSENSE 0.075
+opt_set Z2_RSENSE 0.075
+
 
 opt_enable \
     MONITOR_DRIVER_STATUS \
