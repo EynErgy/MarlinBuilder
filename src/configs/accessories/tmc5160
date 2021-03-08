@@ -31,7 +31,10 @@ opt_set Z2_RSENSE 0.075
 
 opt_enable \
     MONITOR_DRIVER_STATUS \
-    TMC_DEBUG
+    TMC_DEBUG \
+    TMC_USE_SW_SPI \
+    CHOPPER_TIMING \
+    CHOPPER_DEFAULT_24V
 
 opt_disable \
     SQUARE_WAVE_STEPPING \
